@@ -10,6 +10,6 @@ public class DbConfig {
     private static final String PASS = "rohit@8708004879";
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER,PASS);
+        return DriverManager.getConnection(URL, USER, PASS);
     }
 }
